@@ -1,0 +1,1 @@
+package com.dataflow.worker; import java.util.concurrent.*; public class BatchWorker {private final ExecutorService pool;public BatchWorker(int threads){pool=Executors.newFixedThreadPool(threads);}public CompletableFuture<Void> submit(Runnable task){return CompletableFuture.runAsync(task,pool);}public void shutdown(){pool.shutdown();}}

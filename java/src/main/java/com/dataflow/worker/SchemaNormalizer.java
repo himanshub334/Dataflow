@@ -1,0 +1,1 @@
+package com.dataflow.worker; import java.util.*; public class SchemaNormalizer {public Map<String,Object> normalize(Map<String,Object> input){return Collections.unmodifiableMap(new HashMap<>(input));}}

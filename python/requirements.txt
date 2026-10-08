@@ -1,0 +1,7 @@
+redis==5.2.1
+pandas==2.2.3
+pydantic==2.10.5
+httpx==0.28.1
+boto3==1.35.86
+ujson==5.10.0
+pytest==8.3.4
