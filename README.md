@@ -36,3 +36,4 @@ PYTHONPATH=python python benchmark/benchmark_normalization.py --records 10000
 ```
 
 The benchmark reports measured throughput. The resume's 4.2x parsing and 2.9x end-to-end improvements are not fabricated or embedded as guaranteed results; reproduce them on the target workload before claiming them.
+# Dataflow
